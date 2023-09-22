@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Vue 3 Concepts Demo</title>
+</head>
+<body>
+    <div id="app">
+        <h1>Vue 3 Concepts Demo</h1>
+        <hr>
+
+        <!-- Text Interpolation -->
+        <p><strong>Text Interpolation:</strong> {{ message }}</p>
+
+        <!-- Raw HTML -->
+        <p><strong>Raw HTML:</strong> <span v-html="rawHTML"></span></p>
+
+        <!-- Attribute Bindings -->
+        <div :id="dynamicId"><strong>Attribute Bindings:</strong> {{ dynamicText }}</div>
+
+        <!-- JavaScript expressions inside syntax -->
+        <p><strong>JavaScript expressions:</strong> 2 + 2 = {{ 2 + 2 }}</p>
+
+        <!-- Event Handling -->
+        <button @click="sayHello">Click me</button>
+
+        <!-- Reactivity Fundamentals -->
+        <p><strong>Reactive Counter:</strong> {{ counter }}</p>
+        <button @click="incrementCounter">Increment</button>
+
+        <!-- Computed Properties -->
+        <p><strong>Computed Property:</strong> {{ computedValue }}</p>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/vue@3.2.22/dist/vue.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Vue 3 Concepts Demo</title>
+</head>
+<body>
+    <div id="app">
+        <h1>Vue 3 Concepts Demo</h1>
+        <hr>
+
+        <!-- Text Interpolation -->
+        <p><strong>Text Interpolation:</strong> {{ message }}</p>
+
+        <!-- Raw HTML -->
+        <p><strong>Raw HTML:</strong> <span v-html="rawHTML"></span></p>
+
+        <!-- Attribute Bindings -->
+        <div :id="dynamicId"><strong>Attribute Bindings:</strong> {{ dynamicText }}</div>
+
+        <!-- JavaScript expressions inside syntax -->
+        <p><strong>JavaScript expressions:</strong> 2 + 2 = {{ 2 + 2 }}</p>
+
+        <!-- Event Handling -->
+        <button @click="sayHello">Click me</button>
+
+        <!-- Reactivity Fundamentals -->
+        <p><strong>Reactive Counter:</strong> {{ counter }}</p>
+        <button @click="incrementCounter">Increment</button>
+
+        <!-- Computed Properties -->
+        <p><strong>Computed Property:</strong> {{ computedValue }}</p>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/vue@3.2.22/dist/vue.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
